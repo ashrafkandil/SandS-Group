@@ -1,0 +1,2 @@
+C:\GitRepositories\SandS-Group\Client\Soap\Mobile\ParadiseSoap\ParadiseSoap\ParadiseSoap\ParadiseSoap.UWP\ParadiseSoap.UWP.csproj;x86
+C:\GitRepositories\SandS-Group\Client\Soap\Mobile\ParadiseSoap\ParadiseSoap\ParadiseSoap\ParadiseSoap\ParadiseSoap.csproj;neutral
