@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 
 using Foundation;
+using Syncfusion.SfBusyIndicator.XForms.iOS;
 using UIKit;
 
 namespace TheCakesWizard.iOS
@@ -23,8 +24,10 @@ namespace TheCakesWizard.iOS
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
             global::Xamarin.Forms.Forms.Init();
-            LoadApplication(new App());
 
+            new SfBusyIndicatorRenderer();
+            LoadApplication(new App());
+            
             return base.FinishedLaunching(app, options);
         }
     }

@@ -12,6 +12,7 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Syncfusion.SfBusyIndicator.XForms.UWP;
 
 namespace TheCakesWizard.UWP
 {
@@ -19,6 +20,7 @@ namespace TheCakesWizard.UWP
     {
         public MainPage()
         {
+            new SfBusyIndicatorRenderer();
             this.InitializeComponent();
 
             LoadApplication(new TheCakesWizard.App());

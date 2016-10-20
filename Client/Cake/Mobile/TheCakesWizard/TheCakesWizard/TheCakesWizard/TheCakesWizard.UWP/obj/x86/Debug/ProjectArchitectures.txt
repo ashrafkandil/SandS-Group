@@ -1,0 +1,2 @@
+C:\GitRepositories\SandS-Group\Client\Cake\Mobile\TheCakesWizard\TheCakesWizard\TheCakesWizard\TheCakesWizard.UWP\TheCakesWizard.UWP.csproj;x86
+C:\GitRepositories\SandS-Group\Client\Cake\Mobile\TheCakesWizard\TheCakesWizard\TheCakesWizard\TheCakesWizard\TheCakesWizard.csproj;neutral

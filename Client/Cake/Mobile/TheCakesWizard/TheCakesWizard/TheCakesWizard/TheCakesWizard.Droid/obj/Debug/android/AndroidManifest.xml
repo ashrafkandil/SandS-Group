@@ -1,23 +1,62 @@
 <?xml version="1.0" encoding="utf-8"?>
-<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="TheCakesWizard.Droid">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="theCakeWizard.theCakeWizard" android:installLocation="auto" android:versionCode="1" android:versionName="1.0">
   <!--suppress UsesMinSdkAttributes-->
   <uses-sdk android:minSdkVersion="15" />
   <uses-permission android:name="android.permission.INTERNET" />
   <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+  <permission android:name="theCakeWizard.theCakeWizard.permission.C2D_MESSAGE" />
   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-  <application android:label="TheCakesWizard.Droid" android:name="android.app.Application" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+  <uses-permission android:name="android.permission.BATTERY_STATS" />
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+  <uses-permission android:name="android.permission.WAKE_LOCK" />
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+  <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+  <uses-feature android:name="android.hardware.camera" android:required="false" />
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+  <uses-feature android:glEsVersion="0x00020000" android:required="true" />
+  <application android:label="TheCakesWizard.Droid" android:name="md5388e9b754c5771c099ba6dbd0e774a75.MainApplication" android:allowBackup="true" android:icon="@drawable/icon" android:debuggable="true">
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
     <activity android:configChanges="orientation|screenSize" android:icon="@drawable/icon" android:label="TheCakesWizard" android:theme="@style/MainTheme" android:name="md5388e9b754c5771c099ba6dbd0e774a75.MainActivity">
       <intent-filter>
         <action android:name="android.intent.action.MAIN" />
         <category android:name="android.intent.category.LAUNCHER" />
       </intent-filter>
     </activity>
-    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="TheCakesWizard.Droid.mono.MonoRuntimeProvider.__mono_init__" />
+    <receiver android:enabled="true" android:label="Connectivity Plugin Broadcast Receiver" android:name="md5ebcbedcc9f4271e586379ac7977363a7.ConnectivityChangeBroadcastReceiver" />
+    <activity android:name="md588a879adf152f547778e5147cb2024ef.MediaPickerActivity" />
+    <receiver android:name="md563bb5d7cd114ceda82ec85fb57ce3637.AppUpdateReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+      </intent-filter>
+    </receiver>
+    <service android:exported="false" android:name="pushnotification.plugin.PushNotificationGcmListener">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <category android:name="theCakeWizard.theCakeWizard" />
+      </intent-filter>
+    </service>
+    <service android:exported="false" android:name="md563bb5d7cd114ceda82ec85fb57ce3637.PushNotificationInstanceIDListenerService">
+      <intent-filter>
+        <action android:name="com.google.android.gms.iid.InstanceID" />
+      </intent-filter>
+    </service>
+    <service android:exported="false" android:name="md563bb5d7cd114ceda82ec85fb57ce3637.PushNotificationRegistrationIntentService" />
+    <service android:name="md563bb5d7cd114ceda82ec85fb57ce3637.PushNotificationService" />
+    <receiver android:exported="true" android:permission="com.google.android.c2dm.permission.SEND" android:name="md563bb5d7cd114ceda82ec85fb57ce3637.PushNotificationsReceiver">
+      <intent-filter>
+        <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+        <category android:name="theCakeWizard.theCakeWizard" />
+      </intent-filter>
+    </receiver>
+    <provider android:name="mono.MonoRuntimeProvider" android:exported="false" android:initOrder="2147483647" android:authorities="theCakeWizard.theCakeWizard.mono.MonoRuntimeProvider.__mono_init__" />
     <!--suppress ExportedReceiver-->
     <receiver android:name="mono.android.Seppuku">
       <intent-filter>
         <action android:name="mono.android.intent.action.SEPPUKU" />
-        <category android:name="mono.android.intent.category.SEPPUKU.TheCakesWizard.Droid" />
+        <category android:name="mono.android.intent.category.SEPPUKU.theCakeWizard.theCakeWizard" />
       </intent-filter>
     </receiver>
   </application>

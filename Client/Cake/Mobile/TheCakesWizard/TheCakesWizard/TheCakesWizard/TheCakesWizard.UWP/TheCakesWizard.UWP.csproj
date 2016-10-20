@@ -105,7 +105,6 @@
     <AppxManifest Include="Package.appxmanifest">
       <SubType>Designer</SubType>
     </AppxManifest>
-    <None Include="Windows_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Properties\Default.rd.xml" />
@@ -132,6 +131,32 @@
       <Project>{e07fcbfa-89ec-445f-839a-4fa089b77505}</Project>
       <Name>TheCakesWizard</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Syncfusion.SfBusyIndicator.UWP">
+      <HintPath>..\..\References\UWP\Syncfusion.SfBusyIndicator.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms">
+      <HintPath>..\..\References\PCL\Syncfusion.SfBusyIndicator.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfBusyIndicator.XForms.UWP">
+      <HintPath>..\..\References\UWP\Syncfusion.SfBusyIndicator.XForms.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.UWP">
+      <HintPath>..\..\References\UWP\Syncfusion.SfCarousel.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.XForms">
+      <HintPath>..\..\References\PCL\Syncfusion.SfCarousel.XForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfCarousel.XForms.UWP">
+      <HintPath>..\..\References\UWP\Syncfusion.SfCarousel.XForms.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfInput.UWP">
+      <HintPath>..\..\References\PCL\Syncfusion.SfInput.UWP.dll</HintPath>
+    </Reference>
+    <Reference Include="Syncfusion.SfShared.UWP">
+      <HintPath>..\..\References\PCL\Syncfusion.SfShared.UWP.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>

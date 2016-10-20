@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-
+using Syncfusion.SfBusyIndicator.XForms;
 using Xamarin.Forms;
+using TheCakesWizard.Views;
 
 namespace TheCakesWizard
 {
@@ -12,22 +13,36 @@ namespace TheCakesWizard
         public App()
         {
             // The root page of your application
-            var content = new ContentPage
-            {
-                Title = "TheCakesWizard",
-                Content = new StackLayout
-                {
-                    VerticalOptions = LayoutOptions.Center,
-                    Children = {
-                        new Label {
-                            HorizontalTextAlignment = TextAlignment.Center,
-                            Text = "Welcome to Xamarin Forms!"
-                        }
-                    }
-                }
-            };
+            //var content = new ContentPage
+            //{
+            //    Title = "The Cakes Wizard",
+            //    Content = new StackLayout
+            //    {
+            //        VerticalOptions = LayoutOptions.Center,
+            //        Children = {
+            //            new Label {
+            //                HorizontalTextAlignment = TextAlignment.Center,
+            //                Text = "Welcome to Xamarin Forms!"
+            //            }
+            //        }
+            //    }
+            //};
 
-            MainPage = new NavigationPage(content);
+            var content = new Splash();
+
+            //var content = new ContentPage
+            //{
+            //    Title = "The Cakes Wizard",
+            //    Content = new StackLayout
+            //    {
+            //        VerticalOptions = LayoutOptions.Center,
+            //        Children = {
+            //            new  SfBusyIndicator()
+            //            }
+            //    }            
+            //};
+
+        MainPage = new NavigationPage(content);
         }
 
         protected override void OnStart()

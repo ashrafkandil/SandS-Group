@@ -255,6 +255,24 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Newtonsoft.Json/9.0.1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "compile": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.0",
@@ -1788,6 +1806,112 @@
           }
         }
       },
+      "Xam.Plugin.Battery/2.1.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/2.2.12": {
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
+      "Xam.Plugin.DeviceInfo/2.0.2": {
+        "compile": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/3.0.4": {
+        "compile": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.LocalNotifications/1.0.0": {
+        "compile": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/2.3.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugin.PushNotification/1.2.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/3.2.1": {
+        "compile": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        }
+      },
+      "Xam.Plugins.TextToSpeech/2.0.0": {
+        "compile": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        }
+      },
       "Xamarin.Forms/2.3.2.127": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -1800,6 +1924,19 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/2.3.2.127": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
         }
       }
     },
@@ -2047,6 +2184,24 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "compile": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -3442,6 +3597,112 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Battery/2.1.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/2.2.12": {
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
+      "Xam.Plugin.DeviceInfo/2.0.2": {
+        "compile": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/3.0.4": {
+        "compile": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.LocalNotifications/1.0.0": {
+        "compile": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/2.3.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugin.PushNotification/1.2.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/3.2.1": {
+        "compile": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        }
+      },
+      "Xam.Plugins.TextToSpeech/2.0.0": {
+        "compile": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        }
+      },
       "Xamarin.Forms/2.3.2.127": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -3454,6 +3715,19 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/2.3.2.127": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
         }
       }
     },
@@ -3687,6 +3961,24 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "compile": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -5060,6 +5352,112 @@
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Battery/2.1.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/2.2.12": {
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
+      "Xam.Plugin.DeviceInfo/2.0.2": {
+        "compile": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/3.0.4": {
+        "compile": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.LocalNotifications/1.0.0": {
+        "compile": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/2.3.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugin.PushNotification/1.2.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/3.2.1": {
+        "compile": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        }
+      },
+      "Xam.Plugins.TextToSpeech/2.0.0": {
+        "compile": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        }
+      },
       "Xamarin.Forms/2.3.2.127": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -5072,6 +5470,19 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/2.3.2.127": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
         }
       }
     },
@@ -5327,6 +5738,24 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Newtonsoft.Json/9.0.1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "compile": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.0",
@@ -6720,6 +7149,112 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Battery/2.1.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/2.2.12": {
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
+      "Xam.Plugin.DeviceInfo/2.0.2": {
+        "compile": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/3.0.4": {
+        "compile": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.LocalNotifications/1.0.0": {
+        "compile": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/2.3.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugin.PushNotification/1.2.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/3.2.1": {
+        "compile": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        }
+      },
+      "Xam.Plugins.TextToSpeech/2.0.0": {
+        "compile": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        }
+      },
       "Xamarin.Forms/2.3.2.127": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -6732,6 +7267,19 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/2.3.2.127": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
         }
       }
     },
@@ -6965,6 +7513,24 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "compile": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -8338,6 +8904,112 @@
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Battery/2.1.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/2.2.12": {
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
+      "Xam.Plugin.DeviceInfo/2.0.2": {
+        "compile": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/3.0.4": {
+        "compile": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.LocalNotifications/1.0.0": {
+        "compile": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/2.3.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugin.PushNotification/1.2.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/3.2.1": {
+        "compile": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        }
+      },
+      "Xam.Plugins.TextToSpeech/2.0.0": {
+        "compile": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        }
+      },
       "Xamarin.Forms/2.3.2.127": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -8350,6 +9022,19 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/2.3.2.127": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
         }
       }
     },
@@ -8605,6 +9290,24 @@
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
         }
       },
+      "Newtonsoft.Json/9.0.1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "compile": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        }
+      },
       "System.AppContext/4.0.0": {
         "dependencies": {
           "System.Collections": "4.0.0",
@@ -9998,6 +10701,112 @@
           "lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Battery/2.1.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/2.2.12": {
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
+      "Xam.Plugin.DeviceInfo/2.0.2": {
+        "compile": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/3.0.4": {
+        "compile": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.LocalNotifications/1.0.0": {
+        "compile": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/2.3.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugin.PushNotification/1.2.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/3.2.1": {
+        "compile": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        }
+      },
+      "Xam.Plugins.TextToSpeech/2.0.0": {
+        "compile": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        }
+      },
       "Xamarin.Forms/2.3.2.127": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -10010,6 +10819,19 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/2.3.2.127": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
         }
       }
     },
@@ -10243,6 +11065,24 @@
         },
         "runtime": {
           "lib/dotnet/Microsoft.Win32.Primitives.dll": {}
+        }
+      },
+      "Newtonsoft.Json/9.0.1": {
+        "compile": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll": {}
+        }
+      },
+      "PCLStorage/1.0.2": {
+        "compile": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
+        },
+        "runtime": {
+          "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll": {},
+          "lib/portable-win8+wpa81/PCLStorage.dll": {}
         }
       },
       "System.AppContext/4.0.0": {
@@ -11616,6 +12456,112 @@
           "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Xam.Plugin.Battery/2.1.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Battery.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Battery.dll": {}
+        }
+      },
+      "Xam.Plugin.Connectivity/2.2.12": {
+        "compile": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Connectivity.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Connectivity.dll": {}
+        }
+      },
+      "Xam.Plugin.DeviceInfo/2.0.2": {
+        "compile": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll": {},
+          "lib/UAP10/Plugin.DeviceInfo.dll": {}
+        }
+      },
+      "Xam.Plugin.Geolocator/3.0.4": {
+        "compile": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Geolocator.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Geolocator.dll": {}
+        }
+      },
+      "Xam.Plugin.LocalNotifications/1.0.0": {
+        "compile": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/win8/LocalNotifications.Plugin.Abstractions.dll": {},
+          "lib/win8/LocalNotifications.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugin.Media/2.3.0": {
+        "compile": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Media.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Media.dll": {}
+        }
+      },
+      "Xam.Plugin.PushNotification/1.2.4": {
+        "dependencies": {
+          "Newtonsoft.Json": "8.0.3"
+        },
+        "compile": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/PushNotification.Plugin.Abstractions.dll": {},
+          "lib/UAP10/PushNotification.Plugin.dll": {}
+        }
+      },
+      "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll": {},
+          "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll": {}
+        }
+      },
+      "Xam.Plugins.Messaging/3.2.1": {
+        "compile": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.Messaging.Abstractions.dll": {},
+          "lib/UAP10/Plugin.Messaging.dll": {}
+        }
+      },
+      "Xam.Plugins.TextToSpeech/2.0.0": {
+        "compile": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        },
+        "runtime": {
+          "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll": {},
+          "lib/UAP10/Plugin.TextToSpeech.dll": {}
+        }
+      },
       "Xamarin.Forms/2.3.2.127": {
         "compile": {
           "lib/uap10.0/Xamarin.Forms.Core.dll": {},
@@ -11628,6 +12574,19 @@
           "lib/uap10.0/Xamarin.Forms.Platform.UAP.dll": {},
           "lib/uap10.0/Xamarin.Forms.Platform.dll": {},
           "lib/uap10.0/Xamarin.Forms.Xaml.dll": {}
+        }
+      },
+      "Xamarin.Forms.Maps/2.3.2.127": {
+        "dependencies": {
+          "Xamarin.Forms": "2.3.2.127"
+        },
+        "compile": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
+        },
+        "runtime": {
+          "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll": {},
+          "lib/uap10.0/Xamarin.Forms.Maps.dll": {}
         }
       }
     }
@@ -12252,6 +13211,73 @@
         "ref/net46/Microsoft.Win32.Primitives.dll",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._"
+      ]
+    },
+    "Newtonsoft.Json/9.0.1": {
+      "sha512": "U82mHQSKaIk+lpSVCbWYKNavmNH1i5xrExDEquU1i6I5pV6UMOqRnJRSlKO3cMPfcpp0RgDY+8jUXHdQ4IfXvw==",
+      "type": "package",
+      "files": [
+        "Newtonsoft.Json.9.0.1.nupkg.sha512",
+        "Newtonsoft.Json.nuspec",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+wp80+win8+wpa81/Newtonsoft.Json.xml",
+        "tools/install.ps1"
+      ]
+    },
+    "PCLStorage/1.0.2": {
+      "sha512": "9If+1ZFCk3QaT/asfiL+J9FMnx2CTMrLCU8tDMUOI/aCGWGWl9vJ1/KcMkjf92op23ZknenvYJZBLDAqE3sFlg==",
+      "type": "package",
+      "files": [
+        "PCLStorage.1.0.2.nupkg.sha512",
+        "PCLStorage.nuspec",
+        "lib/monoandroid/PCLStorage.Abstractions.dll",
+        "lib/monoandroid/PCLStorage.Abstractions.xml",
+        "lib/monoandroid/PCLStorage.dll",
+        "lib/monoandroid/PCLStorage.xml",
+        "lib/monotouch/PCLStorage.Abstractions.dll",
+        "lib/monotouch/PCLStorage.Abstractions.xml",
+        "lib/monotouch/PCLStorage.dll",
+        "lib/monotouch/PCLStorage.xml",
+        "lib/net45/PCLStorage.Abstractions.dll",
+        "lib/net45/PCLStorage.Abstractions.xml",
+        "lib/net45/PCLStorage.dll",
+        "lib/net45/PCLStorage.xml",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.xml",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.dll",
+        "lib/portable-Xamarin.iOS+Xamarin.Mac/PCLStorage.xml",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.xml",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.dll",
+        "lib/portable-net45+sl5+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.xml",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.dll",
+        "lib/portable-net45+wp8+wpa81+win8+monoandroid+monotouch+Xamarin.iOS+Xamarin.Mac/PCLStorage.xml",
+        "lib/portable-win8+wpa81/PCLStorage.Abstractions.dll",
+        "lib/portable-win8+wpa81/PCLStorage.Abstractions.xml",
+        "lib/portable-win8+wpa81/PCLStorage.dll",
+        "lib/portable-win8+wpa81/PCLStorage.xml",
+        "lib/sl5/PCLStorage.Abstractions.dll",
+        "lib/sl5/PCLStorage.Abstractions.xml",
+        "lib/sl5/PCLStorage.dll",
+        "lib/sl5/PCLStorage.xml",
+        "lib/wp8/PCLStorage.Abstractions.dll",
+        "lib/wp8/PCLStorage.Abstractions.xml",
+        "lib/wp8/PCLStorage.dll",
+        "lib/wp8/PCLStorage.xml"
       ]
     },
     "System.AppContext/4.0.0": {
@@ -14769,6 +15795,537 @@
         "runtimes/win8-aot/lib/netcore50/System.Xml.XmlSerializer.dll"
       ]
     },
+    "Xam.Plugin.Battery/2.1.0": {
+      "sha512": "pg2Hd38AMeDou29ScjrRGEp37QODd+9i/F8CDpxBqcB0nPaRqm5LJzOrNWGq9hdeAC0SdXVDqTXZRtSnSekimg==",
+      "type": "package",
+      "files": [
+        "Xam.Plugin.Battery.2.1.0.nupkg.sha512",
+        "Xam.Plugin.Battery.nuspec",
+        "lib/MonoAndroid10/Plugin.Battery.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Battery.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Battery.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Battery.dll",
+        "lib/MonoAndroid10/Plugin.Battery.pdb",
+        "lib/MonoAndroid10/Plugin.Battery.xml",
+        "lib/MonoTouch10/Plugin.Battery.Abstractions.dll",
+        "lib/MonoTouch10/Plugin.Battery.Abstractions.xml",
+        "lib/MonoTouch10/Plugin.Battery.dll",
+        "lib/MonoTouch10/Plugin.Battery.xml",
+        "lib/UAP10/Plugin.Battery.Abstractions.dll",
+        "lib/UAP10/Plugin.Battery.Abstractions.pdb",
+        "lib/UAP10/Plugin.Battery.Abstractions.xml",
+        "lib/UAP10/Plugin.Battery.dll",
+        "lib/UAP10/Plugin.Battery.pdb",
+        "lib/UAP10/Plugin.Battery.xml",
+        "lib/Xamarin.iOS10/Plugin.Battery.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Battery.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Battery.dll",
+        "lib/Xamarin.iOS10/Plugin.Battery.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Battery.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Battery.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Battery.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Battery.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Battery.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Battery.xml",
+        "lib/win8/Plugin.Battery.Abstractions.dll",
+        "lib/win8/Plugin.Battery.Abstractions.pdb",
+        "lib/win8/Plugin.Battery.Abstractions.xml",
+        "lib/win8/Plugin.Battery.dll",
+        "lib/win8/Plugin.Battery.pdb",
+        "lib/win8/Plugin.Battery.xml",
+        "lib/wp8/Plugin.Battery.Abstractions.dll",
+        "lib/wp8/Plugin.Battery.Abstractions.pdb",
+        "lib/wp8/Plugin.Battery.Abstractions.xml",
+        "lib/wp8/Plugin.Battery.dll",
+        "lib/wp8/Plugin.Battery.pdb",
+        "lib/wp8/Plugin.Battery.xml",
+        "lib/wpa81/Plugin.Battery.Abstractions.dll",
+        "lib/wpa81/Plugin.Battery.Abstractions.pdb",
+        "lib/wpa81/Plugin.Battery.Abstractions.xml",
+        "lib/wpa81/Plugin.Battery.dll",
+        "lib/wpa81/Plugin.Battery.pdb",
+        "lib/wpa81/Plugin.Battery.xml"
+      ]
+    },
+    "Xam.Plugin.Connectivity/2.2.12": {
+      "sha512": "Y/R/GEF+Lo1CuO5NMb4GmjD8lfelDV3q18P+5i2ne3JREgHYcoeW2yYVVGou1Gi9K7SBkzoCYI6+7ioMCR0QkA==",
+      "type": "package",
+      "files": [
+        "Xam.Plugin.Connectivity.2.2.12.nupkg.sha512",
+        "Xam.Plugin.Connectivity.nuspec",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Connectivity.dll",
+        "lib/MonoAndroid10/Plugin.Connectivity.pdb",
+        "lib/MonoAndroid10/Plugin.Connectivity.xml",
+        "lib/MonoTouch10/Plugin.Connectivity.Abstractions.dll",
+        "lib/MonoTouch10/Plugin.Connectivity.Abstractions.xml",
+        "lib/MonoTouch10/Plugin.Connectivity.dll",
+        "lib/MonoTouch10/Plugin.Connectivity.xml",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.dll",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/UAP10/Plugin.Connectivity.Abstractions.xml",
+        "lib/UAP10/Plugin.Connectivity.dll",
+        "lib/UAP10/Plugin.Connectivity.pdb",
+        "lib/UAP10/Plugin.Connectivity.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.dll",
+        "lib/Xamarin.iOS10/Plugin.Connectivity.xml",
+        "lib/net45/Plugin.Connectivity.Abstractions.dll",
+        "lib/net45/Plugin.Connectivity.Abstractions.pdb",
+        "lib/net45/Plugin.Connectivity.Abstractions.xml",
+        "lib/net45/Plugin.Connectivity.dll",
+        "lib/net45/Plugin.Connectivity.pdb",
+        "lib/net45/Plugin.Connectivity.xml",
+        "lib/portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10/Plugin.Connectivity.Abstractions.dll",
+        "lib/portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10/Plugin.Connectivity.Abstractions.pdb",
+        "lib/portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10/Plugin.Connectivity.Abstractions.xml",
+        "lib/portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10/Plugin.Connectivity.dll",
+        "lib/portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10/Plugin.Connectivity.pdb",
+        "lib/portable-net45+wp80+wp81+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+Xamarin.Mac20+UAP10/Plugin.Connectivity.xml",
+        "lib/win8/Plugin.Connectivity.Abstractions.dll",
+        "lib/win8/Plugin.Connectivity.Abstractions.pdb",
+        "lib/win8/Plugin.Connectivity.Abstractions.xml",
+        "lib/win8/Plugin.Connectivity.dll",
+        "lib/win8/Plugin.Connectivity.pdb",
+        "lib/win8/Plugin.Connectivity.xml",
+        "lib/wp80/Plugin.Connectivity.Abstractions.dll",
+        "lib/wp80/Plugin.Connectivity.Abstractions.pdb",
+        "lib/wp80/Plugin.Connectivity.Abstractions.xml",
+        "lib/wp80/Plugin.Connectivity.dll",
+        "lib/wp80/Plugin.Connectivity.pdb",
+        "lib/wp80/Plugin.Connectivity.xml",
+        "lib/wp81/Plugin.Connectivity.Abstractions.dll",
+        "lib/wp81/Plugin.Connectivity.Abstractions.pdb",
+        "lib/wp81/Plugin.Connectivity.Abstractions.xml",
+        "lib/wp81/Plugin.Connectivity.dll",
+        "lib/wp81/Plugin.Connectivity.pdb",
+        "lib/wp81/Plugin.Connectivity.xml",
+        "lib/wpa81/Plugin.Connectivity.Abstractions.dll",
+        "lib/wpa81/Plugin.Connectivity.Abstractions.pdb",
+        "lib/wpa81/Plugin.Connectivity.Abstractions.xml",
+        "lib/wpa81/Plugin.Connectivity.dll",
+        "lib/wpa81/Plugin.Connectivity.pdb",
+        "lib/wpa81/Plugin.Connectivity.xml",
+        "readme.txt"
+      ]
+    },
+    "Xam.Plugin.DeviceInfo/2.0.2": {
+      "sha512": "BZC1mGEBLjZfvJ2VCrOCZI3zLWd3ZCCIRRWZo8fuYE1jztpSDcHbYLeWDN9PrYpflRTyhgDnS0aPoB/9D5+jfg==",
+      "type": "package",
+      "files": [
+        "Xam.Plugin.DeviceInfo.2.0.2.nupkg.sha512",
+        "Xam.Plugin.DeviceInfo.nuspec",
+        "lib/MonoAndroid10/Plugin.DeviceInfo.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.DeviceInfo.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.DeviceInfo.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.DeviceInfo.dll",
+        "lib/MonoAndroid10/Plugin.DeviceInfo.pdb",
+        "lib/MonoAndroid10/Plugin.DeviceInfo.xml",
+        "lib/MonoTouch10/Plugin.DeviceInfo.Abstractions.dll",
+        "lib/MonoTouch10/Plugin.DeviceInfo.Abstractions.xml",
+        "lib/MonoTouch10/Plugin.DeviceInfo.dll",
+        "lib/MonoTouch10/Plugin.DeviceInfo.xml",
+        "lib/UAP10/Plugin.DeviceInfo.Abstractions.dll",
+        "lib/UAP10/Plugin.DeviceInfo.Abstractions.pdb",
+        "lib/UAP10/Plugin.DeviceInfo.Abstractions.xml",
+        "lib/UAP10/Plugin.DeviceInfo.dll",
+        "lib/UAP10/Plugin.DeviceInfo.pdb",
+        "lib/UAP10/Plugin.DeviceInfo.xml",
+        "lib/Xamarin.iOS10/Plugin.DeviceInfo.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.DeviceInfo.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.DeviceInfo.dll",
+        "lib/Xamarin.iOS10/Plugin.DeviceInfo.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DeviceInfo.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DeviceInfo.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DeviceInfo.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DeviceInfo.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DeviceInfo.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.DeviceInfo.xml",
+        "lib/win8/Plugin.DeviceInfo.Abstractions.dll",
+        "lib/win8/Plugin.DeviceInfo.Abstractions.pdb",
+        "lib/win8/Plugin.DeviceInfo.Abstractions.xml",
+        "lib/win8/Plugin.DeviceInfo.dll",
+        "lib/win8/Plugin.DeviceInfo.pdb",
+        "lib/win8/Plugin.DeviceInfo.xml",
+        "lib/wp8/Plugin.DeviceInfo.Abstractions.dll",
+        "lib/wp8/Plugin.DeviceInfo.Abstractions.pdb",
+        "lib/wp8/Plugin.DeviceInfo.Abstractions.xml",
+        "lib/wp8/Plugin.DeviceInfo.dll",
+        "lib/wp8/Plugin.DeviceInfo.pdb",
+        "lib/wp8/Plugin.DeviceInfo.xml",
+        "lib/wpa81/Plugin.DeviceInfo.Abstractions.dll",
+        "lib/wpa81/Plugin.DeviceInfo.Abstractions.pdb",
+        "lib/wpa81/Plugin.DeviceInfo.Abstractions.xml",
+        "lib/wpa81/Plugin.DeviceInfo.dll",
+        "lib/wpa81/Plugin.DeviceInfo.pdb",
+        "lib/wpa81/Plugin.DeviceInfo.xml",
+        "readme.txt"
+      ]
+    },
+    "Xam.Plugin.Geolocator/3.0.4": {
+      "sha512": "mFAZEQxD+PfPoYu2MAWyzCz1TDgAh1mF/sOVxqUvuMSZuF4YffYooK3OlAODkGQj/aGjuQwwjQ9dI9BveMIhNw==",
+      "type": "package",
+      "files": [
+        "Xam.Plugin.Geolocator.3.0.4.nupkg.sha512",
+        "Xam.Plugin.Geolocator.nuspec",
+        "lib/MonoAndroid10/Plugin.Geolocator.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Geolocator.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Geolocator.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Geolocator.dll",
+        "lib/MonoAndroid10/Plugin.Geolocator.pdb",
+        "lib/MonoAndroid10/Plugin.Geolocator.xml",
+        "lib/MonoTouch10/Plugin.Geolocator.Abstractions.dll",
+        "lib/MonoTouch10/Plugin.Geolocator.Abstractions.xml",
+        "lib/MonoTouch10/Plugin.Geolocator.dll",
+        "lib/MonoTouch10/Plugin.Geolocator.xml",
+        "lib/UAP10/Plugin.Geolocator.Abstractions.dll",
+        "lib/UAP10/Plugin.Geolocator.Abstractions.pdb",
+        "lib/UAP10/Plugin.Geolocator.Abstractions.xml",
+        "lib/UAP10/Plugin.Geolocator.dll",
+        "lib/UAP10/Plugin.Geolocator.pdb",
+        "lib/UAP10/Plugin.Geolocator.xml",
+        "lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Geolocator.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Geolocator.dll",
+        "lib/Xamarin.iOS10/Plugin.Geolocator.xml",
+        "lib/net45/Plugin.Geolocator.Abstractions.dll",
+        "lib/net45/Plugin.Geolocator.Abstractions.pdb",
+        "lib/net45/Plugin.Geolocator.Abstractions.xml",
+        "lib/net45/Plugin.Geolocator.dll",
+        "lib/net45/Plugin.Geolocator.pdb",
+        "lib/net45/Plugin.Geolocator.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Geolocator.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Geolocator.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Geolocator.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Geolocator.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Geolocator.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Geolocator.xml",
+        "lib/win8/Plugin.Geolocator.Abstractions.dll",
+        "lib/win8/Plugin.Geolocator.Abstractions.pdb",
+        "lib/win8/Plugin.Geolocator.Abstractions.xml",
+        "lib/win8/Plugin.Geolocator.dll",
+        "lib/win8/Plugin.Geolocator.pdb",
+        "lib/win8/Plugin.Geolocator.xml",
+        "lib/wp8/Plugin.Geolocator.Abstractions.dll",
+        "lib/wp8/Plugin.Geolocator.Abstractions.pdb",
+        "lib/wp8/Plugin.Geolocator.Abstractions.xml",
+        "lib/wp8/Plugin.Geolocator.dll",
+        "lib/wp8/Plugin.Geolocator.pdb",
+        "lib/wp8/Plugin.Geolocator.xml",
+        "lib/wpa81/Plugin.Geolocator.Abstractions.dll",
+        "lib/wpa81/Plugin.Geolocator.Abstractions.pdb",
+        "lib/wpa81/Plugin.Geolocator.Abstractions.xml",
+        "lib/wpa81/Plugin.Geolocator.dll",
+        "lib/wpa81/Plugin.Geolocator.pdb",
+        "lib/wpa81/Plugin.Geolocator.xml",
+        "readme.txt"
+      ]
+    },
+    "Xam.Plugin.LocalNotifications/1.0.0": {
+      "sha512": "fdjW6J4McGzOPLo76jWsbO0jTLWR6E9KmapFIOKcAx1UnpyGwcMDrM/2aTwCm3k1j9GGmuxqyg4lxitEnaaIog==",
+      "type": "package",
+      "files": [
+        "Xam.Plugin.LocalNotifications.1.0.0.nupkg.sha512",
+        "Xam.Plugin.LocalNotifications.nuspec",
+        "lib/MonoAndroid10/LocalNotifications.Plugin.Abstractions.dll",
+        "lib/MonoAndroid10/LocalNotifications.Plugin.Abstractions.pdb",
+        "lib/MonoAndroid10/LocalNotifications.Plugin.Abstractions.xml",
+        "lib/MonoAndroid10/LocalNotifications.Plugin.dll",
+        "lib/MonoAndroid10/LocalNotifications.Plugin.pdb",
+        "lib/MonoAndroid10/LocalNotifications.Plugin.xml",
+        "lib/MonoTouch10/LocalNotifications.Plugin.Abstractions.dll",
+        "lib/MonoTouch10/LocalNotifications.Plugin.Abstractions.pdb",
+        "lib/MonoTouch10/LocalNotifications.Plugin.Abstractions.xml",
+        "lib/MonoTouch10/LocalNotifications.Plugin.dll",
+        "lib/MonoTouch10/LocalNotifications.Plugin.xml",
+        "lib/Xamarin.iOS10/LocalNotifications.Plugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/LocalNotifications.Plugin.Abstractions.pdb",
+        "lib/Xamarin.iOS10/LocalNotifications.Plugin.Abstractions.xml",
+        "lib/Xamarin.iOS10/LocalNotifications.Plugin.dll",
+        "lib/Xamarin.iOS10/LocalNotifications.Plugin.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/LocalNotifications.Plugin.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/LocalNotifications.Plugin.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/LocalNotifications.Plugin.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/LocalNotifications.Plugin.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/LocalNotifications.Plugin.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/LocalNotifications.Plugin.xml",
+        "lib/win8/LocalNotifications.Plugin.Abstractions.dll",
+        "lib/win8/LocalNotifications.Plugin.Abstractions.pdb",
+        "lib/win8/LocalNotifications.Plugin.Abstractions.xml",
+        "lib/win8/LocalNotifications.Plugin.dll",
+        "lib/win8/LocalNotifications.Plugin.pdb",
+        "lib/win8/LocalNotifications.Plugin.xml",
+        "lib/wpa81/LocalNotifications.Plugin.Abstractions.dll",
+        "lib/wpa81/LocalNotifications.Plugin.Abstractions.pdb",
+        "lib/wpa81/LocalNotifications.Plugin.Abstractions.xml",
+        "lib/wpa81/LocalNotifications.Plugin.dll",
+        "lib/wpa81/LocalNotifications.Plugin.pdb",
+        "lib/wpa81/LocalNotifications.Plugin.xml"
+      ]
+    },
+    "Xam.Plugin.Media/2.3.0": {
+      "sha512": "On/VluaWjareOCM/lXzB247p9Uxwkct+QtpxLOOQRuzJv8+lxJwSwIGG5Vf7OWPBXW7ZgGmMaPs2ou9uDYhuzA==",
+      "type": "package",
+      "files": [
+        "Xam.Plugin.Media.2.3.0.nupkg.sha512",
+        "Xam.Plugin.Media.nuspec",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Media.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Media.dll",
+        "lib/MonoAndroid10/Plugin.Media.pdb",
+        "lib/MonoAndroid10/Plugin.Media.xml",
+        "lib/MonoTouch10/Plugin.Media.Abstractions.dll",
+        "lib/MonoTouch10/Plugin.Media.Abstractions.xml",
+        "lib/MonoTouch10/Plugin.Media.dll",
+        "lib/MonoTouch10/Plugin.Media.xml",
+        "lib/UAP10/Plugin.Media.Abstractions.dll",
+        "lib/UAP10/Plugin.Media.Abstractions.pdb",
+        "lib/UAP10/Plugin.Media.Abstractions.xml",
+        "lib/UAP10/Plugin.Media.dll",
+        "lib/UAP10/Plugin.Media.pdb",
+        "lib/UAP10/Plugin.Media.xml",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Media.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Media.dll",
+        "lib/Xamarin.iOS10/Plugin.Media.xml",
+        "lib/net45/Plugin.Media.Abstractions.dll",
+        "lib/net45/Plugin.Media.Abstractions.xml",
+        "lib/net45/Plugin.Media.dll",
+        "lib/net45/Plugin.Media.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.Media.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.Media.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.Media.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.Media.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.Media.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Plugin.Media.xml",
+        "lib/win8/Plugin.Media.Abstractions.dll",
+        "lib/win8/Plugin.Media.Abstractions.pdb",
+        "lib/win8/Plugin.Media.Abstractions.xml",
+        "lib/win8/Plugin.Media.dll",
+        "lib/win8/Plugin.Media.pdb",
+        "lib/win8/Plugin.Media.xml",
+        "lib/wp8/Plugin.Media.Abstractions.dll",
+        "lib/wp8/Plugin.Media.Abstractions.pdb",
+        "lib/wp8/Plugin.Media.Abstractions.xml",
+        "lib/wp8/Plugin.Media.dll",
+        "lib/wp8/Plugin.Media.pdb",
+        "lib/wp8/Plugin.Media.xml",
+        "lib/wpa81/Plugin.Media.Abstractions.dll",
+        "lib/wpa81/Plugin.Media.Abstractions.pdb",
+        "lib/wpa81/Plugin.Media.Abstractions.xml",
+        "lib/wpa81/Plugin.Media.dll",
+        "lib/wpa81/Plugin.Media.pdb",
+        "lib/wpa81/Plugin.Media.xml",
+        "readme.txt"
+      ]
+    },
+    "Xam.Plugin.PushNotification/1.2.4": {
+      "sha512": "WeCXF4G1O514ZNO4rtUg2AALKio3+XhjyntYFpKBGHdnB+Nqw9vsGn4j4XJFZexHgmxK0LYktTQNo2X3NFPvdg==",
+      "type": "package",
+      "files": [
+        "Xam.Plugin.PushNotification.1.2.4.nupkg.sha512",
+        "Xam.Plugin.PushNotification.nuspec",
+        "content/MonoAndroid10/PushNotificationStarted.txt.pp",
+        "content/MonoTouch10/PushNotificationApplicationDelegate.txt.pp",
+        "content/Xamarin.iOS10/PushNotificationApplicationDelegate.txt.pp",
+        "content/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Helpers/CrossPushNotificationListener.txt.pp",
+        "lib/MonoAndroid10/PushNotification.Plugin.Abstractions.dll",
+        "lib/MonoAndroid10/PushNotification.Plugin.Abstractions.pdb",
+        "lib/MonoAndroid10/PushNotification.Plugin.Abstractions.xml",
+        "lib/MonoAndroid10/PushNotification.Plugin.XML",
+        "lib/MonoAndroid10/PushNotification.Plugin.dll",
+        "lib/MonoAndroid10/PushNotification.Plugin.pdb",
+        "lib/MonoTouch10/PushNotification.Plugin.Abstractions.dll",
+        "lib/MonoTouch10/PushNotification.Plugin.Abstractions.pdb",
+        "lib/MonoTouch10/PushNotification.Plugin.Abstractions.xml",
+        "lib/MonoTouch10/PushNotification.Plugin.XML",
+        "lib/MonoTouch10/PushNotification.Plugin.dll",
+        "lib/UAP10/PushNotification.Plugin.Abstractions.dll",
+        "lib/UAP10/PushNotification.Plugin.Abstractions.pdb",
+        "lib/UAP10/PushNotification.Plugin.Abstractions.xml",
+        "lib/UAP10/PushNotification.Plugin.dll",
+        "lib/UAP10/PushNotification.Plugin.pdb",
+        "lib/UAP10/PushNotification.Plugin.pri",
+        "lib/Xamarin.iOS10/PushNotification.Plugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/PushNotification.Plugin.Abstractions.pdb",
+        "lib/Xamarin.iOS10/PushNotification.Plugin.Abstractions.xml",
+        "lib/Xamarin.iOS10/PushNotification.Plugin.XML",
+        "lib/Xamarin.iOS10/PushNotification.Plugin.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/PushNotification.Plugin.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/PushNotification.Plugin.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/PushNotification.Plugin.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/PushNotification.Plugin.XML",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/PushNotification.Plugin.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/PushNotification.Plugin.pdb",
+        "lib/win8/PushNotification.Plugin.Abstractions.dll",
+        "lib/win8/PushNotification.Plugin.Abstractions.pdb",
+        "lib/win8/PushNotification.Plugin.Abstractions.xml",
+        "lib/win8/PushNotification.Plugin.XML",
+        "lib/win8/PushNotification.Plugin.dll",
+        "lib/win8/PushNotification.Plugin.pdb",
+        "lib/win8/PushNotification.Plugin.pri",
+        "lib/wpa81/PushNotification.Plugin.Abstractions.dll",
+        "lib/wpa81/PushNotification.Plugin.Abstractions.pdb",
+        "lib/wpa81/PushNotification.Plugin.Abstractions.xml",
+        "lib/wpa81/PushNotification.Plugin.XML",
+        "lib/wpa81/PushNotification.Plugin.dll",
+        "lib/wpa81/PushNotification.Plugin.pdb",
+        "lib/wpa81/PushNotification.Plugin.pri"
+      ]
+    },
+    "Xam.Plugins.Forms.ImageCircle/1.8.0.5": {
+      "sha512": "Wl9OR/YnS/4u0yUJiFrPD6y3ZV7n7nobfHRA/nUuOHdPdb+g5gsn3eCKHovqUrHLchoMNOn85I+v7cxalumLhQ==",
+      "type": "package",
+      "files": [
+        "Xam.Plugins.Forms.ImageCircle.1.8.0.5.nupkg.sha512",
+        "Xam.Plugins.Forms.ImageCircle.nuspec",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.dll",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.pdb",
+        "lib/MonoAndroid10/ImageCircle.Forms.Plugin.Android.xml",
+        "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/UAP10/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.dll",
+        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.pdb",
+        "lib/UAP10/ImageCircle.Forms.Plugin.UWP.xml",
+        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.dll",
+        "lib/Xamarin.iOS10/ImageCircle.Forms.Plugin.iOS.xml",
+        "lib/portable-net45+wp80+win8+wpa81/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/portable-net45+wp80+win8+wpa81/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/portable-net45+wp80+win8+wpa81/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/win81/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/win81/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/win81/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/win81/ImageCircle.Forms.Plugin.WindowsStore.dll",
+        "lib/win81/ImageCircle.Forms.Plugin.WindowsStore.pdb",
+        "lib/win81/ImageCircle.Forms.Plugin.WindowsStore.xml",
+        "lib/wp8/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/wp8/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/wp8/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/wp8/ImageCircle.Forms.Plugin.WindowsPhone.dll",
+        "lib/wp8/ImageCircle.Forms.Plugin.WindowsPhone.pdb",
+        "lib/wp8/ImageCircle.Forms.Plugin.WindowsPhone.xml",
+        "lib/wpa81/ImageCircle.Forms.Plugin.Abstractions.dll",
+        "lib/wpa81/ImageCircle.Forms.Plugin.Abstractions.pdb",
+        "lib/wpa81/ImageCircle.Forms.Plugin.Abstractions.xml",
+        "lib/wpa81/ImageCircle.Forms.Plugin.WindowsPhoneRT.dll",
+        "lib/wpa81/ImageCircle.Forms.Plugin.WindowsPhoneRT.pdb",
+        "lib/wpa81/ImageCircle.Forms.Plugin.WindowsPhoneRT.xml"
+      ]
+    },
+    "Xam.Plugins.Messaging/3.2.1": {
+      "sha512": "Aq4dgXK4xNFLo+BG3T+oV/bjdUnpE5vt+hVFdABUIBDUhk3JHjrDAkeT+7OSZZRIcma1uCEb80A3tqAM7ceK/g==",
+      "type": "package",
+      "files": [
+        "Xam.Plugins.Messaging.3.2.1.nupkg.sha512",
+        "Xam.Plugins.Messaging.nuspec",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.Messaging.dll",
+        "lib/MonoAndroid10/Plugin.Messaging.pdb",
+        "lib/MonoAndroid10/Plugin.Messaging.xml",
+        "lib/MonoTouch10/Plugin.Messaging.Abstractions.dll",
+        "lib/MonoTouch10/Plugin.Messaging.Abstractions.xml",
+        "lib/MonoTouch10/Plugin.Messaging.dll",
+        "lib/MonoTouch10/Plugin.Messaging.xml",
+        "lib/UAP10/Plugin.Messaging.Abstractions.dll",
+        "lib/UAP10/Plugin.Messaging.Abstractions.pdb",
+        "lib/UAP10/Plugin.Messaging.Abstractions.xml",
+        "lib/UAP10/Plugin.Messaging.dll",
+        "lib/UAP10/Plugin.Messaging.pdb",
+        "lib/UAP10/Plugin.Messaging.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.Messaging.dll",
+        "lib/Xamarin.iOS10/Plugin.Messaging.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.Messaging.xml",
+        "lib/win8/Plugin.Messaging.Abstractions.dll",
+        "lib/win8/Plugin.Messaging.Abstractions.pdb",
+        "lib/win8/Plugin.Messaging.Abstractions.xml",
+        "lib/win8/Plugin.Messaging.dll",
+        "lib/win8/Plugin.Messaging.pdb",
+        "lib/win8/Plugin.Messaging.xml",
+        "lib/wp8/Plugin.Messaging.Abstractions.dll",
+        "lib/wp8/Plugin.Messaging.Abstractions.pdb",
+        "lib/wp8/Plugin.Messaging.Abstractions.xml",
+        "lib/wp8/Plugin.Messaging.dll",
+        "lib/wp8/Plugin.Messaging.pdb",
+        "lib/wp8/Plugin.Messaging.xml",
+        "lib/wpa81/Plugin.Messaging.Abstractions.dll",
+        "lib/wpa81/Plugin.Messaging.Abstractions.pdb",
+        "lib/wpa81/Plugin.Messaging.Abstractions.xml",
+        "lib/wpa81/Plugin.Messaging.dll",
+        "lib/wpa81/Plugin.Messaging.pdb",
+        "lib/wpa81/Plugin.Messaging.xml"
+      ]
+    },
+    "Xam.Plugins.TextToSpeech/2.0.0": {
+      "sha512": "yHH0zmn/TPiWwNdhzzeTqx20O5CySSMqYI8jo2R0plbBjq34EZ5YI915nmJO0pKF6IOsB30STyi/jZkD6Lk/kg==",
+      "type": "package",
+      "files": [
+        "Xam.Plugins.TextToSpeech.2.0.0.nupkg.sha512",
+        "Xam.Plugins.TextToSpeech.nuspec",
+        "lib/MonoAndroid10/Plugin.TextToSpeech.Abstractions.dll",
+        "lib/MonoAndroid10/Plugin.TextToSpeech.Abstractions.pdb",
+        "lib/MonoAndroid10/Plugin.TextToSpeech.Abstractions.xml",
+        "lib/MonoAndroid10/Plugin.TextToSpeech.dll",
+        "lib/MonoAndroid10/Plugin.TextToSpeech.pdb",
+        "lib/MonoAndroid10/Plugin.TextToSpeech.xml",
+        "lib/MonoTouch10/Plugin.TextToSpeech.Abstractions.dll",
+        "lib/MonoTouch10/Plugin.TextToSpeech.Abstractions.xml",
+        "lib/MonoTouch10/Plugin.TextToSpeech.dll",
+        "lib/MonoTouch10/Plugin.TextToSpeech.xml",
+        "lib/UAP10/Plugin.TextToSpeech.Abstractions.dll",
+        "lib/UAP10/Plugin.TextToSpeech.Abstractions.pdb",
+        "lib/UAP10/Plugin.TextToSpeech.Abstractions.xml",
+        "lib/UAP10/Plugin.TextToSpeech.dll",
+        "lib/UAP10/Plugin.TextToSpeech.pdb",
+        "lib/UAP10/Plugin.TextToSpeech.xml",
+        "lib/Xamarin.iOS10/Plugin.TextToSpeech.Abstractions.dll",
+        "lib/Xamarin.iOS10/Plugin.TextToSpeech.Abstractions.xml",
+        "lib/Xamarin.iOS10/Plugin.TextToSpeech.dll",
+        "lib/Xamarin.iOS10/Plugin.TextToSpeech.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.TextToSpeech.Abstractions.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.TextToSpeech.Abstractions.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.TextToSpeech.Abstractions.xml",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.TextToSpeech.dll",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.TextToSpeech.pdb",
+        "lib/portable-net45+wp8+wpa81+win8+MonoAndroid10+MonoTouch10+Xamarin.iOS10+UAP10/Plugin.TextToSpeech.xml",
+        "lib/win8/Plugin.TextToSpeech.Abstractions.dll",
+        "lib/win8/Plugin.TextToSpeech.Abstractions.pdb",
+        "lib/win8/Plugin.TextToSpeech.Abstractions.xml",
+        "lib/win8/Plugin.TextToSpeech.dll",
+        "lib/win8/Plugin.TextToSpeech.pdb",
+        "lib/win8/Plugin.TextToSpeech.xml",
+        "lib/wp8/Plugin.TextToSpeech.Abstractions.dll",
+        "lib/wp8/Plugin.TextToSpeech.Abstractions.pdb",
+        "lib/wp8/Plugin.TextToSpeech.Abstractions.xml",
+        "lib/wp8/Plugin.TextToSpeech.dll",
+        "lib/wp8/Plugin.TextToSpeech.pdb",
+        "lib/wp8/Plugin.TextToSpeech.xml",
+        "lib/wpa81/Plugin.TextToSpeech.Abstractions.dll",
+        "lib/wpa81/Plugin.TextToSpeech.Abstractions.pdb",
+        "lib/wpa81/Plugin.TextToSpeech.Abstractions.xml",
+        "lib/wpa81/Plugin.TextToSpeech.dll",
+        "lib/wpa81/Plugin.TextToSpeech.pdb",
+        "lib/wpa81/Plugin.TextToSpeech.xml"
+      ]
+    },
     "Xamarin.Forms/2.3.2.127": {
       "sha512": "NYH2p6Z2QGrRZpRXSiLqtapqlsx11pkViEIjDUQFDvsMCZbvsipDXOWjV9sXTrruXTdkNZ24Nsw0lEG0jVRMjA==",
       "type": "package",
@@ -14972,12 +16529,89 @@
         "lib/wpa81/Xamarin.Forms.Xaml.dll",
         "lib/wpa81/Xamarin.Forms.Xaml.xml"
       ]
+    },
+    "Xamarin.Forms.Maps/2.3.2.127": {
+      "sha512": "0dSV+ZCCdEinSw0V76AapyfU9Hd4rn8vLZpFIFraCrd1935O1UhsbeBG8dcnIFzzSxGB+KcgvAO81uUePahB6w==",
+      "type": "package",
+      "files": [
+        "Xamarin.Forms.Maps.2.3.2.127.nupkg.sha512",
+        "Xamarin.Forms.Maps.nuspec",
+        "build/win81/ARM/Xamarin.Forms.Maps.WinRT.Tablet.dll",
+        "build/win81/ARM/Xamarin.Forms.Maps.WinRT.Tablet.pri",
+        "build/win81/ARM/Xamarin.Forms.Platform.WinRT.Tablet.dll",
+        "build/win81/ARM/Xamarin.Forms.Platform.WinRT.Tablet.pri",
+        "build/win81/ARM/Xamarin.Forms.Platform.WinRT.Tablet/FormsTextBoxStyle.xbf",
+        "build/win81/ARM/Xamarin.Forms.Platform.WinRT.Tablet/Resources.xbf",
+        "build/win81/ARM/Xamarin.Forms.Platform.WinRT.Tablet/TabletResources.xbf",
+        "build/win81/ARM/Xamarin.Forms.Platform.WinRT.Tablet/Xamarin.Forms.Platform.WinRT.Tablet.xr.xml",
+        "build/win81/Xamarin.Forms.Maps.props",
+        "build/win81/Xamarin.Forms.Maps.targets",
+        "build/win81/x64/Xamarin.Forms.Maps.WinRT.Tablet.dll",
+        "build/win81/x64/Xamarin.Forms.Maps.WinRT.Tablet.pri",
+        "build/win81/x64/Xamarin.Forms.Platform.WinRT.Tablet.dll",
+        "build/win81/x64/Xamarin.Forms.Platform.WinRT.Tablet.pri",
+        "build/win81/x64/Xamarin.Forms.Platform.WinRT.Tablet/FormsTextBoxStyle.xbf",
+        "build/win81/x64/Xamarin.Forms.Platform.WinRT.Tablet/Resources.xbf",
+        "build/win81/x64/Xamarin.Forms.Platform.WinRT.Tablet/TabletResources.xbf",
+        "build/win81/x64/Xamarin.Forms.Platform.WinRT.Tablet/Xamarin.Forms.Platform.WinRT.Tablet.xr.xml",
+        "build/win81/x86/Xamarin.Forms.Maps.WinRT.Tablet.dll",
+        "build/win81/x86/Xamarin.Forms.Maps.WinRT.Tablet.pri",
+        "build/win81/x86/Xamarin.Forms.Platform.WinRT.Tablet.dll",
+        "build/win81/x86/Xamarin.Forms.Platform.WinRT.Tablet.pri",
+        "build/win81/x86/Xamarin.Forms.Platform.WinRT.Tablet/FormsTextBoxStyle.xbf",
+        "build/win81/x86/Xamarin.Forms.Platform.WinRT.Tablet/Resources.xbf",
+        "build/win81/x86/Xamarin.Forms.Platform.WinRT.Tablet/TabletResources.xbf",
+        "build/win81/x86/Xamarin.Forms.Platform.WinRT.Tablet/Xamarin.Forms.Platform.WinRT.Tablet.xr.xml",
+        "lib/MonoAndroid10/Design/Xamarin.Forms.Maps.Design.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Maps.Android.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Maps.dll",
+        "lib/MonoAndroid10/Xamarin.Forms.Maps.xml",
+        "lib/MonoTouch10/Design/Xamarin.Forms.Maps.Design.dll",
+        "lib/MonoTouch10/Xamarin.Forms.Maps.dll",
+        "lib/MonoTouch10/Xamarin.Forms.Maps.iOS.Classic.dll",
+        "lib/MonoTouch10/Xamarin.Forms.Maps.xml",
+        "lib/WP80/Design/Xamarin.Forms.Maps.Design.dll",
+        "lib/WP80/Xamarin.Forms.Maps.WP8.dll",
+        "lib/WP80/Xamarin.Forms.Maps.dll",
+        "lib/WP80/Xamarin.Forms.Maps.xml",
+        "lib/Xamarin.iOS10/Design/Xamarin.Forms.Maps.Design.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.iOS.dll",
+        "lib/Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Design/Xamarin.Forms.Maps.Design.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Maps.dll",
+        "lib/portable-win+net45+wp80+win81+wpa81+MonoAndroid10+MonoTouch10+Xamarin.iOS10/Xamarin.Forms.Maps.xml",
+        "lib/uap10.0/Design/Xamarin.Forms.Maps.Design.dll",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.dll",
+        "lib/uap10.0/Xamarin.Forms.Maps.UWP.pri",
+        "lib/uap10.0/Xamarin.Forms.Maps.dll",
+        "lib/win81/Design/Xamarin.Forms.Maps.Design.dll",
+        "lib/win81/Xamarin.Forms.Maps.dll",
+        "lib/win81/Xamarin.Forms.Maps.xml",
+        "lib/wpa81/Design/Xamarin.Forms.Maps.Design.dll",
+        "lib/wpa81/Xamarin.Forms.Maps.WinRT.Phone.dll",
+        "lib/wpa81/Xamarin.Forms.Maps.WinRT.Phone.pri",
+        "lib/wpa81/Xamarin.Forms.Maps.dll"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     "": [
       "Microsoft.NETCore.UniversalWindowsPlatform >= 5.0.0",
-      "Xamarin.Forms >= 2.3.2.127"
+      "Newtonsoft.Json >= 9.0.1",
+      "PCLStorage >= 1.0.2",
+      "Xam.Plugin.Battery >= 2.1.0",
+      "Xam.Plugin.Connectivity >= 2.2.12",
+      "Xam.Plugin.DeviceInfo >= 2.0.2",
+      "Xam.Plugin.Geolocator >= 3.0.4",
+      "Xam.Plugin.LocalNotifications >= 1.0.0",
+      "Xam.Plugin.Media >= 2.3.0",
+      "Xam.Plugin.PushNotification >= 1.2.4",
+      "Xam.Plugins.Forms.ImageCircle >= 1.8.0.5",
+      "Xam.Plugins.Messaging >= 3.2.1",
+      "Xam.Plugins.TextToSpeech >= 2.0.0",
+      "Xamarin.Forms >= 2.3.2.127",
+      "Xamarin.Forms.Maps >= 2.3.2.127"
     ],
     "UAP,Version=v10.0": []
   }
